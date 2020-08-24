@@ -2,14 +2,17 @@
 
 int val = 0;
 void setup() {
+  Serial.begin(115200);
+  Serial.println("ADT6401 Breakout Test");
   pinMode(PIN2, INPUT);
 }
 
 void loop() {
-  Serial.begin(115200);
   val = digitalRead(PIN2);
-  digitalWrite(LED_BUILTIN, !val);
-  if (val == false)
+  if (val == false){
+    digitalWrite(LED_BUILTIN, HIGH);
     Serial.println("ALARM!");
-    
+  } else {
+    digitalWrite(LED_BUILTIN, LOW); 
+  }
 }
