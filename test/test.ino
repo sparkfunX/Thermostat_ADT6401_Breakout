@@ -14,5 +14,6 @@ void loop() {
     Serial.println("ALARM!");
   } else {
     digitalWrite(LED_BUILTIN, LOW); 
+    Serial.println("Alarm not triggered");
   }
 }
