@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8882,6 +8882,7 @@ Temp</text>
 <text x="119.38" y="99.06" size="1.778" layer="97" align="center">Move DIP 1/2/3 to set to 1</text>
 <text x="119.38" y="101.6" size="1.778" layer="97" align="center">Default is all off = All float, -45°C/10°C</text>
 <text x="86.868" y="17.526" size="1.778" layer="97">Alarm</text>
+<text x="40.64" y="106.68" size="1.778" layer="97">Voltage range: 2.7V to 5.5V</text>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
