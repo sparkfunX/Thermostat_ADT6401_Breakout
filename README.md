@@ -1,9 +1,9 @@
-SparkFun Qwiic Humidity AHT20
+SparkFun Auto-Digital Thermostat - ADT6401
 =============================
 
-[![Qwiic AHT20](https://cdn.sparkfun.com/assets/parts/1/5/5/0/2/16618-Qwiic_Humidity_AHT20-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/5/0/2/16618-Qwiic_Humidity_AHT20-01.jpg)
+[![ADT6401](https://cdn.sparkfun.com/assets/parts/1/5/6/6/5/16772-Auto-Digital_Thermostat_-_ADT6401-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/5/6/6/5/16772-Auto-Digital_Thermostat_-_ADT6401-01.jpg)
 
-New from SparkX, the AHT20 breakout board. This low-cost IC triggers temperature and humidity measurements easily over the Qwiic bus you know and love.
+New from SparkX, the ADT6401 breakout board. This IC triggers alarm pin and LED when the temperature reading crosses a temperature trip point. Set the trip point easily using the SPDT switches included on the breakout.
 
 SparkFun labored with love to design this board. Feel like supporting open-source hardware?
 Buy a [board](https://www.sparkfun.com/) from SparkFun!
@@ -11,7 +11,7 @@ Buy a [board](https://www.sparkfun.com/) from SparkFun!
 Repository Contents
 -------------------
 
-* **/Documents** - Datasheet for the AHT20 IC.
+* **/Documents** - Datasheet for the ADT6401 IC.
 * **/Hardware** - Eagle design files (.brd, .sch).
 * **/Production** - Production panel files (.brd).
 
